@@ -1,4 +1,7 @@
 <?php
+
+// inclusion des dépendances 
+require "../models/taskModel.php";
 //récupération du controleur à executer
 $route = filter_input(INPUT_GET, "route") ?? "taskList";
 
