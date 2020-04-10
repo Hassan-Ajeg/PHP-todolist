@@ -4,7 +4,7 @@
 $recordSet = $pdo->query("SELECT * FROM view_tasks");
 $taskList = $recordSet->fetchAll();
 
-$pageTitle =  "liste des tâches";
+$pageTitle =  "Liste des tâches";
 $content = "taskList";
 
 

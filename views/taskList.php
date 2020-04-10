@@ -1,6 +1,6 @@
 <h1><?= $pageTitle ?></h1>
 
-<table>
+<table class="table table-borderd table-stripped">
     <tr>
     <th>Titre</th>
     <th>Catégorie</th>
