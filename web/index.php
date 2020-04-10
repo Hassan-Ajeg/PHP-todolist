@@ -13,7 +13,7 @@ if(! file_exists($controllerPath)) {
 
 //ouverture de la connexion à la BD
 $pdo = new PDO(
-    "mysql:host=127.0.0.1;dbname=todolist;charset=utf8",
+    "mysql:host=127.0.0.1;dbname=todolist;charset=utf8;port=8889",
     "root",
     "root",
     [
