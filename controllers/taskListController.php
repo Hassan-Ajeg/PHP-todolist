@@ -1,3 +1,7 @@
 <?php
 
-echo "liste des tâches";
+$pageTitle =  "liste des tâches";
+$content = "taskList";
+
+
+require "../views/baseLayout.php";
